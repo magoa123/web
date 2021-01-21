@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: cursive;
+    position: relative;
+    height: 100vh;
+    overflow:visible:
+}
+
+
+.header {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+}
+.header:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+p {
+    color: rgba(177, 44, 77, 0.507);
+    text-align: center;
+    border: 5px solid green;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50vh;
+}
+p:hover {
+ color: blue;
+ background-color: grey;
+}
+
+.footer {
+    position: absolute;
+    color: fuchsia;
+    left: 50vw;
+    transform: translateX(-50%); 
+    top: 95vh;
+    
+}
+.footer:hover {
+    color: blue;
+    border: 4px solid black;
+    padding: 0;
+    background-color: goldenrod;
+}
